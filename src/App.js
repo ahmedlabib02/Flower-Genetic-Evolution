@@ -1,24 +1,24 @@
 import React, { useState } from 'react';
-import FlowerCard from './FlowerCard';
-import GeneticAlgorithm from './GeneticAlgorithm';
+import FlowerCard from './Components/FlowerCard';
+import GeneticAlgorithm from './Logic/GeneticAlgorithm';
 
+
+const geneticAlgorithm = new GeneticAlgorithm(0.5);
+const initialPopulation = geneticAlgorithm.flowers;
 function App() {
   // Initialize the genetic algorithm
-  const geneticAlgorithm = new GeneticAlgorithm(0.5); // You can set the crossover rate here
-
-  
-  const initialPopulation = geneticAlgorithm.flowers;
+   // You can set the crossover rate here
 
   
   const [flowers, setFlowers] = useState(initialPopulation);
 
   
   const handleEvolveGeneration = () => {
-    
+    // console.log("before:"+ geneticAlgorithm.flowers);
     geneticAlgorithm.evolve();
-
-    // console.log(geneticAlgorithm.flowers)
+    
     setFlowers([...geneticAlgorithm.flowers]);
+    // console.log("after:"+ geneticAlgorithm.flowers);
   };
 
   return (
