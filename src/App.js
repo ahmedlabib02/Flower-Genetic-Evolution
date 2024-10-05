@@ -6,19 +6,18 @@ import GeneticAlgorithm from './Logic/GeneticAlgorithm';
 const geneticAlgorithm = new GeneticAlgorithm(0.5);
 const initialPopulation = geneticAlgorithm.flowers;
 function App() {
-  // Initialize the genetic algorithm
-   // You can set the crossover rate here
+  
 
   
   const [flowers, setFlowers] = useState(initialPopulation);
 
   
   const handleEvolveGeneration = () => {
-    // console.log("before:"+ geneticAlgorithm.flowers);
+    
     geneticAlgorithm.evolve();
     
     setFlowers([...geneticAlgorithm.flowers]);
-    // console.log("after:"+ geneticAlgorithm.flowers);
+    
   };
 
   return (
