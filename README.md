@@ -92,11 +92,12 @@ The `App` component is the main entry point for the application. It handles init
 ### Evolved Population after 5 Generations
 ![Evolved Population](evolved-population.png)
 
----
+## Team Members and Contributions
 
-## How to Run the Project
+| Name             | Tutorial                | Contribution                                        |
+|------------------|---------------------|-----------------------------------------------------|
+| **Ahmed Labib**   | 11      | Developed the genetic algorithm and integrated it with the front-end. |
+| **[Team Member 2]** | Front-end Developer | Implemented the visual rendering of the flowers.     |
+| **[Team Member 3]** | State Manager      | Managed state handling and ensured smooth interaction. |
+| **[Team Member 4]** | Tester/Optimizer   | Assisted in testing and performance optimizations.   |
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/username/flower-evolution.git
-   cd flower-evolution
