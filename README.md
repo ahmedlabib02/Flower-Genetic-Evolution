@@ -96,8 +96,8 @@ The `App` component is the main entry point for the application. It handles init
 
 | Name             | Tutorial                | Contribution                                        |
 |------------------|---------------------|-----------------------------------------------------|
-| [**Ahmed Labib**]([https://profile-link.com/ahmedlabib](https://github.com/ahmedlabib02))   | 11      | dnf |
-| [**Malak Labib**]([https://profile-link.com/malaklabib](https://github.com/malakklabib)) | 11 | dnf     |
-| [**Omar Mohamed**]([https://profile-link.com/omarmohamed](https://github.com/omarelkord)) | 19      | dnf |
+| [**Ahmed Labib**](https://github.com/ahmedlabib02)   | 11      | dnf |
+| [**Malak Labib**](https://github.com/malakklabib) | 11 | dnf     |
+| [**Omar Mohamed**](https://github.com/omarelkord) | 19      | dnf |
 
 
