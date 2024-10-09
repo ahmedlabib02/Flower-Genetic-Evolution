@@ -96,8 +96,8 @@ The `App` component is the main entry point for the application. It handles init
 
 | Name             | Tutorial                | Contribution                                        |
 |------------------|---------------------|-----------------------------------------------------|
-| **Ahmed Labib**   | 11      | Developed the genetic algorithm and integrated it with the front-end. |
-| **[Team Member 2]** | Front-end Developer | Implemented the visual rendering of the flowers.     |
-| **[Team Member 3]** | State Manager      | Managed state handling and ensured smooth interaction. |
-| **[Team Member 4]** | Tester/Optimizer   | Assisted in testing and performance optimizations.   |
+| [**Ahmed Labib**]([https://profile-link.com/ahmedlabib](https://github.com/ahmedlabib02))   | 11      | dnf |
+| [**Malak Labib**]([https://profile-link.com/malaklabib](https://github.com/malakklabib)) | 11 | dnf     |
+| [**Omar Mohamed**]([https://profile-link.com/omarmohamed](https://github.com/omarelkord)) | 19      | dnf |
+
 
