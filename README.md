@@ -87,10 +87,10 @@ The `App` component is the main entry point for the application. It handles init
 ## Results and Snapshots
 
 ### Initial Population
-![Initial Population](generation0.png)
+![Initial Population](generation0.PNG)
 
 ### Evolved Population after 17 Generations
-![Evolved Population](generation17.png)
+![Evolved Population](generation17.PNG)
 
 ## Team Members and Contributions
 
