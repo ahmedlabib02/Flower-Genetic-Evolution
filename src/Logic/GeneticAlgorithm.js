@@ -5,7 +5,7 @@ class GeneticAlgorithm {
       this.flowers = [...Array(8)].map(() => new Flower()); // Initialize 8 flowers
       this.mutation_rate = 0.05;
       this.crossover_rate = crossover_rate;
-      this.iteration = 0;
+      // this.iteration = 0;
     }
   
     // Select the fittest n/2 flowers based on fitness
@@ -13,13 +13,13 @@ class GeneticAlgorithm {
       console.log(this.flowers);
       const n = this.flowers.length;
   
-      // Sort flowers by their fitness in descending order
+      
       const sortedFlowers = [...this.flowers].sort((a, b) => b.fitness - a.fitness);
     
-      // Select the top n/2 fittest flowers
+      
       const fittestFlowers = sortedFlowers.slice(0, n / 2);
   
-      // Duplicate the selected flowers to maintain the same population size (n)
+      
       return [...fittestFlowers, ...fittestFlowers]; 
     
     }
@@ -154,7 +154,7 @@ class GeneticAlgorithm {
         const population = this.mutate(offsprings);
         console.log(population);
         this.flowers = population;
-        console.log(this.flowers);
+        // this.iteration++;
       }
   }
   
